@@ -8,8 +8,8 @@ jobs:
         steps:
 
         - name: Checkout Repo
-        - uses: actions/checkout@v5
-         
+          uses: actions/checkout@v5
+
         - name: Welcome Message
           run: echo "My First Github Action Job"
 
